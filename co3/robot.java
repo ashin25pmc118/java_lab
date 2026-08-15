@@ -72,7 +72,7 @@ class UltimateRescueRobot extends RescueRobot implements Flyable, Swimmable, Cli
     }
 }
 
-public class Main {
+public class robot {
     public static void main(String[] args) {
         RescueRobot robot = new UltimateRescueRobot("R101", 90);
         robot.start();
