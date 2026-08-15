@@ -42,7 +42,7 @@ class Rectangle extends Shape {
     }
 }
 
-public class ShapeDemo {
+public class ShapeArea {
     public static void main(String[] args) {
         Shape c = new Circle("Red", 5.0);
         c.showColor();

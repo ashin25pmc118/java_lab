@@ -30,7 +30,7 @@ class Student extends Person {
     }
 }
 
-public class SimpleInheritanceDemo {
+public class SimpleInheritance {
     public static void main(String[] args) {
         Student s = new Student("Alice", 20, 101, "Computer Science");
         s.displayStudent();

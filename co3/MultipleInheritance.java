@@ -57,7 +57,7 @@ class SmartPhone extends Device implements Camera, MusicPlayer, GPS {
     }
 }
 
-public class MultipleInheritanceDemo {
+public class MultipleInheritance {
     public static void main(String[] args) {
         SmartPhone phone = new SmartPhone("Apple", "iPhone 15");
         phone.showDevice();

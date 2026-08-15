@@ -56,7 +56,7 @@ class UPIPayment extends Payment implements Refundable {
     }
 }
 
-public class PaymentDemo {
+public class PaymentSystem {
     public static void main(String[] args) {
         CreditCardPayment card = new CreditCardPayment(150.0, "TXN1001", "1234567890123456");
         card.printReceipt();
